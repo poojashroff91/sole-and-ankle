@@ -56,13 +56,16 @@ const Link = styled.a`
   color: inherit;
 `;
 
-const Wrapper = styled.article``;
+const Wrapper = styled.article`
+margin-bottom: 40px;
+`;
 
 const ImageWrapper = styled.div`
   position: relative;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+width: 320px;`;
 
 const Row = styled.div`
   font-size: 1rem;
